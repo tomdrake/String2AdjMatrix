@@ -58,5 +58,4 @@ blank_matrix = generate_adj_matrix(string_in)
 
 #Now fill the matrix
 string_2_matrix(blank_matrix, string_in)
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
+}

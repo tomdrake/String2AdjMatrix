@@ -22,12 +22,8 @@ string_2_matrix(new_matrix, supplied_string, self = 0)
 %%     ~~Describe \code{supplied_string} here~~
 }
   \item{self}{The `self` option specifies how to handle data when the specified object is found within a string. Default is 0. i.e. the adjacency matrix does not count it when the substring is found, only when the substring is found in combination with another unique substring.
-
 %%     ~~Describe \code{self} here~~
 }
-}
-\details{
-%%  ~~ If necessary, more details than the description above ~~
 }
 \value{An adjacency matrix
 %%  ~Describe the value returned
@@ -36,9 +32,7 @@ string_2_matrix(new_matrix, supplied_string, self = 0)
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
 }
-\references{
-%% ~put references to the literature/web site here ~
-}
+
 \author{Tom Drake
 %%  ~~who you are~~
 }
@@ -48,9 +42,6 @@ string_2_matrix(new_matrix, supplied_string, self = 0)
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
 \examples{
 ##Example
 library(String2AdjMatrix)

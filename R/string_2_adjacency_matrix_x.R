@@ -1,6 +1,4 @@
 #Function x
-require(stringr)
-
 string_2_matrix_x <- function(new_matrix, supplied_string,  coord_x = 1, self = 0){
     result = list()
   reference_string = colnames(new_matrix)[coord_x]

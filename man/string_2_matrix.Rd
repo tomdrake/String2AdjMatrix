@@ -5,7 +5,7 @@
 \title{string_2_matrix
 %%  ~~function to do ... ~~
 }
-\description{
+\description{Creates an adjacency matrix
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
@@ -63,4 +63,4 @@ blank_matrix = generate_adj_matrix(string_in)
 
 #Now fill the matrix
 string_2_matrix(blank_matrix, string_in)
-
+}
